@@ -16,7 +16,11 @@ Alternatif :
 ## ARM Clutch
 
 Spesifikasi :
-* Potensio disini / TPU
+* Potensio disini / TPU / AMT Selespeed Position Sensor Speed Position Sensor
 
 Alternatif :
 1. Chery QQ QQ6 S12 S16 S18 S21 T11 MG Chevrolet Sail Fiat QR512E-
+
+## Sensor
+1. High Pressure Sensor
+2. Potensio / AMT Selespeed Position Sensor Speed Position Sensor
