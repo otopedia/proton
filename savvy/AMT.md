@@ -2,6 +2,8 @@
 
 ## Accumulator
 
+![image](https://github.com/otopedia/proton/assets/11188109/f1767a26-b409-4d65-a352-d812ac596eaa)
+
 Spesifikasi : 
 * New Accumulator TANK
 * Max Pressure: 92 BAR
