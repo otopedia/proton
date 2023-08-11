@@ -1,0 +1,89 @@
+"Name", "ShortName", "ModeAndPID", "Equation", "Min Value", "Max Value", "Units", "Header", "startDiagnostic", "stopDiagnostic", "Scale"
+"PR_ACCELERATOR PEDAL POSITION","PR030","0x21aa","(1.0*(100*I))/256",0,0,"%","827AF1","null","null",1
+"PR_AIR TEMPERATURE","PR058","0x21a2","0.625*O-40",0,0,"°C","827AF1","null","null",1
+"PR_ANTI-KNOCK CORRECTION","PR095","0x21a9","0.375*N",0,0,"°Crk","827AF1","null","null",1
+"PR_BOOST PRESSURE","PR041","0x21a0","0.0578125*(O*256+P)+103",0,0,"mbar","827AF1","null","null",1
+"PR_CANISTER BLEED SOLENOID VALVE RCO","PR102","0x21a6","N",0,0,"%","827AF1","null","null",1
+"PR_COMPUTER SUPPLY VOLTAGE","PR071","0x21a2","0.032*P+8",0,0,"V","827AF1","null","null",1
+"PR_DOWNSTREAM OXYGEN SENSOR VOLTAGE","PR099","0x21a9","9.76*I",0,0,"mV","827AF1","null","null",1
+"PR_ENGINE SPEED","PR055","0x21a9","(A*256+B)",0,0,"rpm","827AF1","null","null",1
+"PR_ENGINE TORQUE","PR015","0x21a3","2*O-100",0,0,"Nm","827AF1","null","null",1
+"PR_IDLE REGULATION PROGRAMMING VALUE","PR090","0x21ab","0.39*(signed(F))",0,0,"%","827AF1","null","null",1
+"PR_IDLE SPEED REFERENCE","PR190","0x21ab","(C*256+D)",0,0,"rpm","827AF1","null","null",1
+"PR_IGNITION ADVANCE","PR448","0x21a4","0.375*P-23.625",0,0,"°Crk","827AF1","null","null",1
+"PR_INJ. TIM. CORRECTION","PR748","0x21ab","(1.0*(N*256+O))/1023",0,0,"ms","827AF1","null","null",1
+"PR_INJECTION DURATION","PR101","0x21a4","4*(1.0*(N*256+O))/1000",0,0,"ms","827AF1","null","null",1
+"PR_KNOCK SIGNAL","PR571","0x21a4","256*Q",0,0,"","827AF1","null","null",1
+"PR_MANIFOLD PRESSURE","PR421","0x21a0","0.0578125*(M*256+N)+103",0,0,"mbar","827AF1","null","null",1
+"PR_MEASURED THROTTLE POSITION","PR429","0x21a8","(1.0*(400*N))/1023",0,0,"%","827AF1","null","null",1
+"PR_MILEOMETER FAULT LED ILLUMINATED","PR106","0x21aa","0.0711*(M*256+N)",0,0,"km","827AF1","null","null",1
+"PR_MOT. THROTTLE HIGH STOP PROGRAMMED VALUE","PR096","0x21ab","(1.0*(400*J))/1023",0,0,"%","827AF1","null","null",1
+"PR_MOT. THROTTLE LOW STOP PROGRAMMED VALUE","PR097","0x21ab","(1.0*(400*I))/1023",0,0,"%","827AF1","null","null",1
+"PR_MOT. THROTTLE POSITION CORRECTED VALUE","PR111","0x21a8","(1.0*(100*(T*256+U)))/65535",0,0,"%","827AF1","null","null",1
+"PR_MOTORISED THROTTLE TRACK 1 LOWER STOP","PR587","0x21a8","(1.0*(20*L))/1023",0,0,"V","827AF1","null","null",1
+"PR_MOTORISED THROTTLE TRACK 1 UPPER STOP","PR589","0x21a8","(1.0*(20*J))/1023",0,0,"V","827AF1","null","null",1
+"PR_MOTORISED THROTTLE TRACK 2 LOWER STOP","PR588","0x21a8","(1.0*(20*M))/1023",0,0,"V","827AF1","null","null",1
+"PR_MOTORISED THROTTLE TRACK 2 UPPER STOP","PR590","0x21a8","(1.0*(20*K))/1023",0,0,"V","827AF1","null","null",1
+"PR_NO LOAD POSITION PROGRAMMING VALUE","PR424","0x21a9","(1.0*(100*K))/256",0,0,"%","827AF1","null","null",1
+"PR_OBD ODOMETER FAULT WARNING LIGHT ILLUMIN.","PR105","0x21aa","(O*256+P)",0,0,"km","827AF1","null","null",1
+"PR_OCR SOL. VAL. ADDIT. PETROL CIRC.","PR742","0x21a4","(1.0*V)/2.55",0,0,"%","827AF1","null","null",1
+"PR_OPERATING RICHNESS ADAPTIVE","PR139","0x21ab","(1.0*((L*256+M)*100))/65535",0,0,"%","827AF1","null","null",1
+"PR_PEDAL POSITION TRACK 1","PR568","0x21a9","(1.0*(400*O))/1023",0,0,"%","827AF1","null","null",1
+"PR_PEDAL POSITION TRACK 2","PR569","0x21a9","(1.0*(400*P))/1023",0,0,"%","827AF1","null","null",1
+"PR_POWER ABSORBED BY THE AC COMPRESSOR","PR125","0x21cc","20*O",0,0,"W","827AF1","null","null",1
+"PR_REFRIGERANT PRESSURE","PR037","0x21a3","0.2*N",0,0,"bar","827AF1","null","null",1
+"PR_RICHNESS AUTOADAPTIVE OFFSET","PR144","0x21aa","(1.0*(D*100))/255",0,0,"%","827AF1","null","null",1
+"PR_RICHNESS AUTOADATIVE GAIN","PR143","0x21a3","(1.0*(X*100))/255",0,0,"%","827AF1","null","null",1
+"PR_RICHNESS CORRECTION VALUE","PR438","0x21a2","(1.0*(256*Q*100))/65280",0,0,"%","827AF1","null","null",1
+"PR_THEORETICAL IDLE REGULATION RCO","PR091","0x21ab","0.384*G",0,0,"%","827AF1","null","null",1
+"PR_THROTTLE POSITION MEASURED TRACK 1","PR118","0x21a8","(1.0*(400*O))/1023",0,0,"%","827AF1","null","null",1
+"PR_THROTTLE POSITION MEASURED TRACK 2","PR119","0x21a8","(1.0*(400*P))/1023",0,0,"%","827AF1","null","null",1
+"PR_TURBOCHARGING S.V. OCR SETTING","PR104","0x21a0","(1.0*(100*Q))/256",0,0,"%","827AF1","null","null",1
+"PR_UPSTREAM OXYGEN SENSOR VOLTAGE","PR098","0x21a9","9.76*H",0,0,"mV","827AF1","null","null",1
+"PR_VEHICLE SPEED","PR089","0x21a9","J",0,0,"km/h","827AF1","null","null",1
+"PR_VOLTAGE MEASURED THROTTLE TRACK 1","PR539","0x21a9","(1.0*(20*D))/1023",0,0,"V","827AF1","null","null",1
+"PR_VOLTAGE MEASURED THROTTLE TRACK 2","PR538","0x21a9","(1.0*(20*E))/1023",0,0,"V","827AF1","null","null",1
+"PR_WATER TEMPERATURE","PR064","0x21a2","0.625*N-40",0,0,"°C","827AF1","null","null",1
+"ST_"HI-FLEX" CONFIG.","ET652","0x21ae","O",0,0,"","827AF1","null","null",1
+"ST_ACCELERATED IDLE","ET219","0x21a2","{B:5}",0,0,"","827AF1","null","null",1
+"ST_ACTUATOR RELAY CONTROL","ET048","0x21a4","{A:7}",0,0,"","827AF1","null","null",1
+"ST_ADDITIONAL FUEL PUMP RELAY CONTROL","ET670","0x21a4","{B:0}",0,0,"","827AF1","null","null",1
+"ST_AIR CONDITIONING COMPRESSOR","ET321","0x21a4","{C:2}",0,0,"","827AF1","null","null",1
+"ST_ALCOHOL LEVEL PROG.","ET671","0x21ab","P",0,0,"","827AF1","null","null",1
+"ST_BRAKE PEDAL","ET237","0x21ce","{I:0}",0,0,"","827AF1","null","null",1
+"ST_CANISTER BLEED CONTROL","ET050","0x21a4","{B:6}",0,0,"","827AF1","null","null",1
+"ST_CATALYTIC CONVERTER OBD DIAGNOSTIC","LC113","0x21ae","{D:5}",0,0,"","827AF1","null","null",1
+"ST_CLUTCH PEDAL SWITCH","ET405","0x21ce","{G:0}",0,0,"","827AF1","null","null",1
+"ST_COMPUTER + AFTER IGNITION","ET001","0x21a2","{A:7}",0,0,"","827AF1","null","null",1
+"ST_CYLINDER 1 RECOGNITION","ET061","0x21a2","{C:0}",0,0,"","827AF1","null","null",1
+"ST_DEFECT MODE TYPE 1","ET564","0x21a0","{L:7}",0,0,"","827AF1","null","null",1
+"ST_DEFECT MODE TYPE 2","ET565","0x21a0","{L:6}",0,0,"","827AF1","null","null",1
+"ST_DEFECT MODE TYPE 3","ET566","0x21a0","{L:5}",0,0,"","827AF1","null","null",1
+"ST_DEFECT MODE TYPE 4","ET567","0x21a0","{L:4}",0,0,"","827AF1","null","null",1
+"ST_DEFECT MODE TYPE 5","ET568","0x21a0","{L:3}",0,0,"","827AF1","null","null",1
+"ST_DOUBLE RICHNESS LOOP","ET056","0x21a2","{C:5}",0,0,"","827AF1","null","null",1
+"ST_DOWNSTREAM OXYGEN SENSOR","LC004","0x21ae","{A:1}",0,0,"","827AF1","null","null",1
+"ST_DOWNSTREAM OXYGEN SENSOR HEATING","ET053","0x21a4","{B:4}",0,0,"","827AF1","null","null",1
+"ST_ENGINE IMMOBILISER","ET003","0x21a2","{D:4}",0,0,"","827AF1","null","null",1
+"ST_ETAT PRIVE 2","ET091","0x21ad","{A:7}",0,0,"","827AF1","null","null",1
+"ST_ETAT PRIVE 4","ET097","0x21ad","{A:5}",0,0,"","827AF1","null","null",1
+"ST_FAN UNIT HIGH SPEED RELAY CONTROL","ET144","0x21a4","{A:4}",0,0,"","827AF1","null","null",1
+"ST_FAN UNIT SLOW SPEED RELAY CONTROL","ET143","0x21a4","{A:5}",0,0,"","827AF1","null","null",1
+"ST_FLYWHEEL SIGNAL","ET062","0x21a2","{D:7}",0,0,"","827AF1","null","null",1
+"ST_FLYWHEEL TARGET PROGRAMMING","ET089","0x21a9","R",0,0,"","827AF1","null","null",1
+"ST_FUEL PUMP RELAY COMMAND.","ET290","0x21a4","{A:6}",0,0,"","827AF1","null","null",1
+"ST_IDLE CONTROL","ET054","0x21a2","{C:6}",0,0,"","827AF1","null","null",1
+"ST_IMMOBILISER CODE PROGRAMMED","ET341","0x21a2","{D:3}",0,0,"","827AF1","null","null",1
+"ST_IMPACT DETECTED","ET077","0x21cf","E",0,0,"","827AF1","null","null",1
+"ST_INLET CAMSHAFT SHIFTER","LC008","0x21a4","T",0,0,"","827AF1","null","null",1
+"ST_MOTOR","ET038","0x21cd","((K>2)&3)",0,0,"","827AF1","null","null",1
+"ST_OXYGEN SENSOR OBD DIAGN.","LC117","0x21ae","{D:7}",0,0,"","827AF1","null","null",1
+"ST_PROGRAMMING THROTTLE LIMITS","ET051","0x21a2","{C:2}",0,0,"","827AF1","null","null",1
+"ST_REQUEST CATLAYTIC CONVERTER F. FINDING","ET347","0x21ae","{D:5}",0,0,"","827AF1","null","null",1
+"ST_REQUEST FOR SENSOR FAULT FINDING","ET346","0x21ae","{D:7}",0,0,"","827AF1","null","null",1
+"ST_RICHNESS REGULATION","ET300","0x21a2","{C:7}",0,0,"","827AF1","null","null",1
+"ST_STARTING","ET076","0x21cd","{J:0}",0,0,"","827AF1","null","null",1
+"ST_TEST RESULT K","ET092","0x21c5","K",0,0,"","827AF1","null","null",1
+"ST_TEST RESULT N","ET101","0x21c5","N",0,0,"","827AF1","null","null",1
+"ST_UPSTREAM O2 SENSOR HEATING","ET052","0x21a4","{B:3}",0,0,"","827AF1","null","null",1
+"ST_WATER PUMP STRATEGY","LC015","0x21ae","{N:1}",0,0,"","827AF1","null","null",1
