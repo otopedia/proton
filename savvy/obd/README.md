@@ -32,6 +32,10 @@ https://bit.ly/2WtG0cD
 
 ## Data Sheet
 
+![Data Sheet](protondatasheet.jpeg "Data Sheet")
+
+![Supported](protonsupported.jpeg "Supported")
+
 1. Proton 1
 2. Proton 2
 3. [PR_7A_10648_GB](PR_7A_10648_GB.csv)
